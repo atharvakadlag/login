@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /* border-bottom: 1px gray solid; */
+}
+
+.header > img {
+  height: 100px;
+  object-fit: contain;
+}
+
+.limiter {
+  margin-top: 10px;
+  margin-bottom: 2rem;
+}
+.container-login100 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  /* border: 2px solid green; */
+}
+.wrap-login100 {
+  /* border: 2px solid red; */
+  width: 90%;
+  max-width: 500px;
+}
+.logoLink {
+  display: flex;
+  padding: 10px 40px;
+  align-items: center;
+  width: 90%;
+  max-width: 300px;
+  margin: auto;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #353535;
+  border-radius: 7px;
+  background: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 7px;
+  margin-bottom: 1rem;
+}
+
+.logoLink > p {
+  margin-left: 10px;
+
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.login100-form {
+  margin-top: 50px;
+  border-radius: 7px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 7px;
+  /* border: 2px solid black; */
+  width: 100%;
+}
+
+.form-container {
+  padding: 24px;
+}
+.form-container__loginTitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.form-container__loginTitle > h1 {
+  font-weight: 500;
+}
+.form-container__inputTitle {
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+
+.wrap-input100 {
+  width: 100%;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+.input100 {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px gray solid;
+  font-size: 16px;
+  padding: 0 0.5rem;
+}
+
+.container-login100-form-btn {
+  margin-top: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login100-form-btn {
+  width: 100%;
+  padding: 1rem 0;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(33, 75, 140, 1);
+  color: white;
+}
+
+.login100-form-btn:hover {
+  background-color: rgba(0, 54, 136, 0.9);
+}
+
+.form-container__OR {
+  text-align: center;
+  margin: 2rem 0;
+}
+.form-container__OR > p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/*Student Page*/

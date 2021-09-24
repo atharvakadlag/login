@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  background-color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 0px 7px;
+}
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.header__item > img {
+  height: 80px;
+  object-fit: contain;
+}
+.container {
+  margin-top: 2rem;
+  width: 80%;
+  max-width: 800px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.container__logout {
+  display: flex;
+  justify-content: end;
+}
+
+.button__logout {
+  padding: 5px 10px;
+  background-color: rgb(207, 13, 13);
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+/* .container__div {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-evenly;
+} */
+
+.button {
+  padding: 15px 45px;
+  background-image: linear-gradient(
+    to right,
+    #77a1d3 0%,
+    #79cbca 51%,
+    #77a1d3 100%
+  );
+  transition: 0.5s;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  background-size: 200% auto;
+  color: white;
+  cursor: pointer;
+}
+.button:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 9px;
+  grid-row-gap: 9px;
+  justify-items: center;
+  margin-top: 3rem;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 2;
+}
+.div2 {
+  grid-area: 1 / 3 / 2 / 4;
+}
+.div3 {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.div4 {
+  grid-area: 2 / 3 / 3 / 4;
+}
+.div5 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.collage-image {
+  background-color: gray;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
