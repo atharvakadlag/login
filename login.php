@@ -59,7 +59,7 @@
 require_once 'vendor/autoload.php';
 $clientID = '207150863646-7gcucvchpnm04eg6rooelpmmk8hgdfa7.apps.googleusercontent.com';
 $clientSecret = '4kyCs2sRQZx2_-a8cd70IKo9';
-$redirectUrl = 'http://localhost/login/login.php';
+$redirectUrl = 'https://alumni-affairs-iiitdm.herokuapp.com/student_page.php';
 
 //Create Client Request to google
 $client = new Google_Client();
