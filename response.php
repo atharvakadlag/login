@@ -3,7 +3,7 @@ session_start();
     $query_receive = 0;
     if(!isset($_SESSION['status']))
     {
-        header('Location:index.php');
+        header('Location:login.php');
         exit;
     }
     include('connection.php');
