@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="StudentPage.css">
+    <style>
+    </style>
+    <title> Alumni Affairs IIITDM </title>
+</head>
+<body>
+    <div class="header">
+        <div class="header__container">
+            <a href="/login/student_page.php">
+                <div class="header__item aa_logo">
+                    <img src="images\icons\aa_logo.png" alt="AA_LOGO" />
+                </div>
+            </a>
+            <div class="header__item">
+                <h1><?php if($google_signin == 0){  echo "Welcome, ".$row['name']."";} else{ echo "Welcome, ".$name."!!"; }?></h1>
+            </div>
+            <a href="http://iiitdm.ac.in/" target="_blank">
+                <div class="header__item">
+
+                    <img src="images\icons\iiitdmlogo.png" alt="IIITDMK LOGO" />
+
+                </div>
+            </a>
+        </div>
+    </div>
+    <div class="container" align ="center">
+        <br /> <br /> <br />
+        <div class="div5">
+            <div class="container__contactUs">
+                <a href="login.php">
+                    <button class="button">
+                        Login
+                    </button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
