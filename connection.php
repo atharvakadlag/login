@@ -1,8 +1,8 @@
 <?php      
-    $host = "us-cdbr-east-04.cleardb.com";  
-    $user = "b0331734b14842";  
-    $password = 'a8d8958b';  
-    $db_name = "heroku_1761586faccbda9	";  
+    $host = "localhost";  
+    $user = "root";  
+    $password = '';  
+    $db_name = "login";  
       
     $con = mysqli_connect($host, $user, $password, $db_name);  
     if(mysqli_connect_errno()) {  
